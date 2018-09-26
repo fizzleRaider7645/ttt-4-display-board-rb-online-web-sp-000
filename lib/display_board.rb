@@ -9,6 +9,3 @@ def display_board(board = Array.new(9) {" "})
   puts " #{board[6]}  | #{board[7]} |  #{board[8]}  "
 end
 
-board = ["O", "X", " ", " ", "X", " ", "X", "O", " "]
-board[3]
-display_board(board)
