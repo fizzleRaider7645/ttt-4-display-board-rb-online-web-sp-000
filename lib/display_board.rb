@@ -10,5 +10,5 @@ def display_board(board = Array.new(9) {" "})
 end
 
 board = ["O", "X", " ", " ", "X", " ", "X", "O", " "]
-board[]
+board[3] = :X
 display_board(board)
