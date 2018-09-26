@@ -2,7 +2,7 @@
 # out the current state.
 
 def display_board(board = Array.new(9) {" "})
-  puts " #{}  | #{}  | #{}  "
+  puts " #{board[0]}  | #{}  | #{}  "
   puts "-----------"
   puts "  #{} |  #{} | #{}  "
   puts "-----------"
